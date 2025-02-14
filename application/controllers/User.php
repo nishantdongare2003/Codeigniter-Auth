@@ -59,6 +59,7 @@
                     redirect('user/dashboard');
                 }else{
                     $this->session->set_flashdata('error',"Invalid Username and Password !Please Try Again");
+					redirect('User/login');
                 }
             }
 

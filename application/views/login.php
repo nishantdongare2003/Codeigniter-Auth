@@ -89,7 +89,7 @@
             <div>Login</div>
         </div>
         <div class="card-body">
-            <form action="#" method="POST">
+            <form action="<?php echo base_url(); ?>User/login" method="POST">
                 <div class="form-group">
                     <label for="email">Email</label>
                     <div class="input-group">
